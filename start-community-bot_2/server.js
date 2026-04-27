@@ -11,7 +11,7 @@ const { initDatabase, userFns, goalFns, taskFns, scoreFns } = require("./db/data
 // ─── Sozlamalar ───
 const PORT = process.env.PORT || 3000;
 const BOT_TOKEN = process.env.BOT_TOKEN || "";
-const WEBAPP_URL = process.env.WEBAPP_URL || "https://example.com";
+const WEBAPP_URL = process.env.WEBAPP_URL || "https://start-community-webapp.vercel.app";
 const ADMIN_PHONES = (process.env.ADMIN_PHONES || "").split(",").map(p => p.trim());
 
 // ─── Debug ───
